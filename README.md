@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=180&section=header&text=Alvaro%20Albornoz&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Tech%20Lead%20%26%20Senior%20Full-Stack%20Engineer&descAlignY=58&descSize=18" alt="Header"/>
+  <img src="assets/header.svg" width="100%" alt="Alvaro Albornoz — Tech Lead &amp; Senior Full-Stack Engineer"/>
 </p>
 
 <p align="center">
@@ -142,5 +142,5 @@ Modularity is non-negotiable: small cohesive units, design by contract, dependen
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=100&section=footer" alt="Footer"/>
+  <img src="assets/footer.svg" width="100%" alt=""/>
 </p>

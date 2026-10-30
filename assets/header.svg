@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 52px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #fff; opacity: 0; animation: fade 1.2s ease-out forwards; }
+      .subtitle { font: 400 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #cbd5e1; opacity: 0; animation: fade 1.2s ease-out .4s forwards; }
+      .wave { animation: drift 8s ease-in-out infinite alternate; }
+      @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+    </style>
+  </defs>
+  <path fill="url(#bg)" d="M0 0H1200V170C1050 210 900 140 750 165S450 215 300 180 90 150 0 175Z"/>
+  <path class="wave" fill="#ffffff" fill-opacity=".08" d="M0 150C150 120 300 190 450 160S750 110 900 150 1150 190 1260 150V220H0Z"/>
+  <text class="title" x="600" y="92" text-anchor="middle">Alvaro Albornoz</text>
+  <text class="subtitle" x="600" y="132" text-anchor="middle">Tech Lead &amp; Senior Full-Stack Engineer</text>
+</svg>
